@@ -1,0 +1,24 @@
+1532928232082	geckodriver	INFO	Listening on 127.0.0.1:50540
+1532928235050	mozprofile::profile	INFO	Using profile path C:\Users\lenovo\AppData\Local\Temp\rust_mozprofile.7xBRXY0ssHMO
+1532928235059	geckodriver::marionette	INFO	Starting browser D:\ToolsInstall\firefox.exe
+1532928235119	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50549
+1532928238666	Marionette	INFO	Listening on port 2828
+1532928379762	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ror: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\lenovo\AppData\Local\openvr\openvrpaths.vrpath

@@ -1,0 +1,48 @@
+from selenium import webdriver
+from time import sleep
+
+driver = webdriver.Chrome()
+driver.implicitly_wait(30)
+driver.get('http://101.207.139.52:30501/jac/#/jac/login')
+# //*[@id="app"]/div/div[1]/div/form/div[2]/div/div/input
+username = driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/form/div[1]/div/div/input')
+username.clear()
+password = driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/form/div[2]/div/div/input')
+password.clear()
+
+username.send_keys('root')
+password.send_keys('root')
+
+long_in = driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/button')
+long_in.click()
+
+vehicle_manage = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[1]/div[1]/a[3]/div[2]/span')
+vehicle_manage.click()
+
+sleep(5)
+
+#vehicle_number_search = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/div[1]/div/div/input')
+multe = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/span[1]/i')
+
+multe.click()
+sleep(5)
+
+vehicle_seriers = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div[1]/div[1]/div/div/div[1]/input[2]')
+vehicle_seriers.click()
+sleep(5)
+select = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div[1]/div[1]/div/div/div[2]/ul[2]/li[1]')
+
+select.click()
+
+sleep(5)
+
+search_button = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div/div/div[2]/form/div[1]/button[2]')
+search_button.click()
+
+
+
+#vehicle_number_search.send_keys('')
+
+sleep(3)
+#driver.quit
+driver.quit()
